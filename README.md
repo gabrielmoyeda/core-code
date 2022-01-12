@@ -1,5 +1,4 @@
-# core-code
-Core Code bootcamp
+
 ## Week challenges (Tuesday)  💻
 
 1.  Watch  [this](https://www.youtube.com/watch?v=JNMy969SjyU)  video about compilation and interpretation 
@@ -41,3 +40,62 @@ Un diagrama de flujo sirve para describir un proceso o un sistema sirve para doc
 9.  Search about High-level languages and Low-level languages, you can start with  [this](https://www.youtube.com/watch?v=1vRPOp5p-qs)  video
 Lenguajes de Alto Nivel: es fácil de leer por el ser humano 
 Lenguaje de Bajo Nivel: Es fácil de leer por el computador, pero no lo es tanto para el ser humano
+##
+## Week challenges (Wednesday)  💻
+1.  Learn about binary, decimal and hexadecimal numbers
+2.  Translate the year you where born to binary, decimal and hexadecimal
+**Bin:** 11110111001
+**Dec:** 1977
+**Hex** 7B9
+3.  Translate 51966 into hexadecimal and binary
+**Bin:** 1100101011111110
+**Hex:** CAFE
+4.  Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow  [this](https://github.com/corecodeio/bootcamp-from-scratch/blob/main/src/technologies/2022/week1/resources/MIPS.md)  guide. We recomend to check the guide first but also  [this](https://courses.cs.vt.edu/cs2506/Fall2014/Notes/L04.MIPSAssemblyOverview.pdf)  presentation could be helpful.
+5.  Base on the examples and the guide of the low-level language: 
+5.1 Create a program to add two numbers given by the user 
+
+	      .data
+		        number1: .asciiz "\nIngrese el primer numero: "
+		        number2: .asciiz "\nIngrese el segundo numero: "
+		        resultado: .asciiz "\nEl resultado es: "
+    
+	       .text
+		        main:
+	            li $v0, 4
+	            la $a0, number1
+	            syscall
+
+	            li $v0, 5
+	            syscall
+
+	            move $t0, $v0
+
+	            li $v0, 4
+	            la $a0, number2
+	            syscall
+
+	            li $v0, 5
+	            syscall
+
+	            move $t1, $v0
+
+	            add $t2, $t0, $t1
+
+	            li $v0, 4
+	            la $a0 resultado
+	            syscall
+
+	            li $v0, 1
+	            move $a0, $t2
+	            syscall
+
+5.2 Create a program that display your name
+
+	  .data
+	    message: .asciiz "\nGabriel Moyeda Estrada\n"
+	  .text
+	    main:
+	      li $v0, 4
+	      la $a0, message
+	      syscall
+
