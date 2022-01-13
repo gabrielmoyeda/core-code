@@ -1,4 +1,5 @@
 
+
 ## Week challenges (Tuesday)  💻
 
 1.  Watch  [this](https://www.youtube.com/watch?v=JNMy969SjyU)  video about compilation and interpretation 
@@ -99,3 +100,17 @@ Lenguaje de Bajo Nivel: Es fácil de leer por el computador, pero no lo es tanto
 	      la $a0, message
 	      syscall
 
+## Week challenges (Thursday)  💻
+
+1.  Search for real word applications of Javascript
+-   Visual Studio Code.
+-   Atom.
+-   Wordpress, la Aplicación de Escritorio.
+-   Slack, aplicación de Escritorio.
+-   Github, aplicación de Escritorio.
+-   Twitch, aplicación de Escritorio.
+-   LightTable, Editor de Código Multiplataforma.
+-   Hyper.
+2.  (optional but great) Watch  [this](https://www.youtube.com/watch?v=LW6vQNE2jgc&t=1962s)  video
+4.  (optional but great) Watch  [this](https://www.youtube.com/watch?v=KXkQJBASUOg)  video
+5.  Follow the github course, you can find it  [here](https://github.com/corecodeio/bootcamp-from-scratch/blob/main/src/recommended)
