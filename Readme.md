@@ -127,15 +127,71 @@ function fakeBin(x){
 
 1.  [https://www.codewars.com/kata/57faece99610ced690000165](https://www.codewars.com/kata/57faece99610ced690000165)
 ```
+function remove (string) {
+  let res = string;
+  while (res[res.length - 1] === "!") 
+  {
+    res = res.slice(0, -1);
+  }
+  return res;
+}
 ```
 2.  [https://www.codewars.com/kata/5547929140907378f9000039](https://www.codewars.com/kata/5547929140907378f9000039)
 ```
+function shortcut (string) {
+  return string.replace( /[aeiou]/ig, '' );
+}
 ```
 3.  [https://www.codewars.com/kata/5672a98bdbdd995fad00000f](https://www.codewars.com/kata/5672a98bdbdd995fad00000f)
 ```
+const rps = (p1, p2) => {
+  if (p1 == p2) 
+    {
+      return "Draw!";
+    }
+   
+  if ((p1 == 'rock' && p2 == 'scissors') ||
+      (p1 == 'scissors' && p2 == 'paper') ||
+      (p1 == 'paper' && p2 == 'rock'))
+    {
+      return "Player 1 won!";
+    }
+  
+  
+  if ((p2 == 'rock' && p1 == 'scissors') ||
+      (p2 == 'scissors' && p1 == 'paper') ||
+      (p2 == 'paper' && p1 == 'rock'))
+    {
+      return "Player 2 won!";
+    }
+};
 ```
 4.  [https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec)
 ```
+function persistence(num) {
+  var nuevoNum = String(num);
+  var res;
+  var cont=0;
+  nuevoNum = nuevoNum.split('');
+  
+  if (nuevoNum.length == 1)
+    {
+      return 0;
+    }
+  
+  while (nuevoNum.length > 1)
+    {
+      res = 1;
+      cont++;
+      for (var i = 0; i < nuevoNum.length; i++)
+        {
+          res = res * nuevoNum[i] ;
+        }
+      nuevoNum = String(res);
+      nuevoNum = nuevoNum.split('');
+    }
+  return cont;
+}
 ```
 5.  ✨Complete your 1st  [**Core Challenge**](https://corecode.notion.site/Mission-Statement-666f515d76084c8e8c996b473b4d6317). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
 ```
