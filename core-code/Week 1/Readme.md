@@ -5,7 +5,7 @@
 1.  Watch  [this](https://www.youtube.com/watch?v=JNMy969SjyU)  video about compilation and interpretation 
 * Diferencias entre compilación e interpretación
 * **Compilación:** convierte mi código a lenguaje binario para que pueda ser ejecutado.
-* 
+
 |Pros|Contras  |
 |--|--|
 |Más rápido|No es multiplataforma  |
