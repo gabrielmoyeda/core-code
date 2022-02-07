@@ -11,7 +11,7 @@
 |Más rápido|No es multiplataforma  |
 |Código fuente es privado|requiere de pasos extra para compilar  |
 * **Intérprete:** se envía directamente mi código y el intérprete lo interpreta al vuelo, es decir, haciendo la ejecución línea por línea.
-*
+
 |Pros|Contras  |
 |--|--|
 |multiplataforma|mas lento|
