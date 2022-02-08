@@ -1,4 +1,4 @@
-# Week 1 - 10 - 14 Enero 2022
+<h1 align="center">Introduction to programming & Javascript - Week 1 (10 - 14 Ene)</h1>
 
 ## Week challenges (Tuesday)  💻
 
@@ -54,7 +54,7 @@ Lenguaje de Bajo Nivel: Es fácil de leer por el computador, pero no lo es tanto
 4.  Use a Low-level language, for example MIPS aseembler, to do so, you will need to follow  [this](https://github.com/corecodeio/bootcamp-from-scratch/blob/main/src/technologies/2022/week1/resources/MIPS.md)  guide. We recomend to check the guide first but also  [this](https://courses.cs.vt.edu/cs2506/Fall2014/Notes/L04.MIPSAssemblyOverview.pdf)  presentation could be helpful.
 5.  Base on the examples and the guide of the low-level language: 
 5.1 Create a program to add two numbers given by the user 
-
+```
 	      .data
 		        number1: .asciiz "\nIngrese el primer numero: "
 		        number2: .asciiz "\nIngrese el segundo numero: "
@@ -89,9 +89,10 @@ Lenguaje de Bajo Nivel: Es fácil de leer por el computador, pero no lo es tanto
 	            li $v0, 1
 	            move $a0, $t2
 	            syscall
+```
 
 5.2 Create a program that display your name
-
+```
 	  .data
 	    message: .asciiz "\nGabriel Moyeda Estrada\n"
 	  .text
@@ -99,6 +100,7 @@ Lenguaje de Bajo Nivel: Es fácil de leer por el computador, pero no lo es tanto
 	      li $v0, 4
 	      la $a0, message
 	      syscall
+```
 
 ## Week challenges (Thursday)  💻
 
