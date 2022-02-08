@@ -1,4 +1,5 @@
-# Week 3 - 24 - 28 Ene 2022
+<h1 align="center">Javascript - Week 3 (24 - 28 Ene)</h1>
+
 ## Week challenges (Monday)  💻
 
 Week challenges (Monday) 💻
