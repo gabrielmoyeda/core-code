@@ -1,4 +1,4 @@
-# npm,npx & Typescript - Week 4 (31 Ene - 4 Feb)
+<h1 align="center">npm,npx & Typescript - Week 4 (31 Ene - 4 Feb)</h1>
 
 ## Week challenges (Wednesday) 💻
 1. [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009)
