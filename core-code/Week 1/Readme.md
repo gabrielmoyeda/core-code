@@ -55,51 +55,51 @@ Lenguaje de Bajo Nivel: Es fácil de leer por el computador, pero no lo es tanto
 5.  Base on the examples and the guide of the low-level language: 
 5.1 Create a program to add two numbers given by the user 
 ```
-	      .data
-		        number1: .asciiz "\nIngrese el primer numero: "
-		        number2: .asciiz "\nIngrese el segundo numero: "
-		        resultado: .asciiz "\nEl resultado es: "
-    
-	       .text
-		        main:
-	            li $v0, 4
-	            la $a0, number1
-	            syscall
+	.data
+		number1: .asciiz "\nIngrese el primer numero: "
+		number2: .asciiz "\nIngrese el segundo numero: "
+		resultado: .asciiz "\nEl resultado es: "
 
-	            li $v0, 5
-	            syscall
+	.text
+		main:
+			li $v0, 4
+			la $a0, number1
+			syscall
 
-	            move $t0, $v0
+			li $v0, 5
+			syscall
 
-	            li $v0, 4
-	            la $a0, number2
-	            syscall
+			move $t0, $v0
 
-	            li $v0, 5
-	            syscall
+			li $v0, 4
+			la $a0, number2
+			syscall
 
-	            move $t1, $v0
+			li $v0, 5
+			syscall
 
-	            add $t2, $t0, $t1
+			move $t1, $v0
 
-	            li $v0, 4
-	            la $a0 resultado
-	            syscall
+			add $t2, $t0, $t1
 
-	            li $v0, 1
-	            move $a0, $t2
-	            syscall
+			li $v0, 4
+			la $a0 resultado
+			syscall
+
+			li $v0, 1
+			move $a0, $t2
+			syscall
 ```
 
 5.2 Create a program that display your name
 ```
-	  .data
-	    message: .asciiz "\nGabriel Moyeda Estrada\n"
-	  .text
-	    main:
-	      li $v0, 4
-	      la $a0, message
-	      syscall
+	.data
+		message: .asciiz "\nGabriel Moyeda Estrada\n"
+	.text
+		main:
+			li $v0, 4
+			la $a0, message
+			syscall
 ```
 
 ## Week challenges (Thursday)  💻
