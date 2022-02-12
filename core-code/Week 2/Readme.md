@@ -5,6 +5,7 @@
 2.  Watch  [this](https://www.youtube.com/watch?v=A37-3lflh8I)  video
 3.  Read  [this](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Math)
 4.  Create an account in  [Codewars](https://www.codewars.com/dashboard)
+![codewars logo](../img/imagen.jpg) https://www.codewars.com/users/gabrielmoyeda
 
 ## [](https://github.com/corecodeio/bootcamp-from-scratch/tree/main/src/technologies/2022/week2#week-challenges-tuesday-)Week challenges (Tuesday)  💻
 
