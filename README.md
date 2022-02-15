@@ -18,3 +18,5 @@ Agradecimiento especial a todos los TL y al equipo completo de Core-Code
 [Week 4](https://github.com/gabrielmoyeda/core-code/tree/master/Week%204)
 
 [Week 5](https://github.com/gabrielmoyeda/core-code/tree/master/Week%205)
+
+[Week 6](https://github.com/gabrielmoyeda/core-code/tree/master/Week%206)
