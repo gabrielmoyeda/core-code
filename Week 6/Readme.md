@@ -19,7 +19,7 @@
 
 ## Week challenges (Monday) 💻
 
-1. Read [this](./Example/Input.md)
+1. Read [this](https://github.com/corecodeio/bootcamp-from-scratch/blob/main/src/technologies/2022/week6/Example/Input.md)
 2. [Menu](./Exercices/E0/desc/ED0W6.md) Using `Typescript`
 3. [Movies](./Exercices/E1/desc/ED1W6.md) Using `Typescript`
 
