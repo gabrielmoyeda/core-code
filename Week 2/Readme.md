@@ -11,14 +11,14 @@
 
 0.  Watch  [this](https://www.youtube.com/watch?v=cEBkvm0-rg0)  video
 1.  [https://www.codewars.com/kata/50654ddff44f800200000004](https://www.codewars.com/kata/50654ddff44f800200000004)
-```
+```js
 function multiply(a, b){
   return a * b;
 }
 ```
 
 2.  [https://www.codewars.com/kata/572b6b2772a38bc1e700007a](https://www.codewars.com/kata/572b6b2772a38bc1e700007a)
-```
+```js
 function uniTotal (string) {
   var largoCadena = string.length;
   var sumaCar = 0;
@@ -37,20 +37,20 @@ function uniTotal (string) {
 }
 ```
 3.  [https://www.codewars.com/kata/55ad04714f0b468e8200001c](https://www.codewars.com/kata/55ad04714f0b468e8200001c)
-```
+```js
 function getChar(c){
     return String.fromCharCode(c);
 }
 ```
 4.  [https://www.codewars.com/kata/551f37452ff852b7bd000139](https://www.codewars.com/kata/551f37452ff852b7bd000139)
-```
+```js
 function addBinary(a,b) {
   var suma = a+b;
   return suma.toString(2);
 }
 ```
 5.  [https://www.codewars.com/kata/5ad0d8356165e63c140014d4](https://www.codewars.com/kata/5ad0d8356165e63c140014d4)
-```
+```js
 function finalGrade (exam, projects) {
   if((exam > 90) || (projects > 10))
     {
@@ -74,7 +74,7 @@ function finalGrade (exam, projects) {
 ## [](https://github.com/corecodeio/bootcamp-from-scratch/tree/main/src/technologies/2022/week2#week-challenges-wednesday-)Week challenges (Wednesday)  💻
 
 1.  [https://www.codewars.com/kata/57e92e91b63b6cbac20001e5](https://www.codewars.com/kata/57e92e91b63b6cbac20001e5)
-```
+```js
 function dutyFree(normPrice, discount, hol){
   // Math.floor Devuelve el máximo entero menor o igual a un número
 
@@ -88,13 +88,13 @@ function dutyFree(normPrice, discount, hol){
 }
 ```
 2.  [https://www.codewars.com/kata/5b853229cfde412a470000d0](https://www.codewars.com/kata/5b853229cfde412a470000d0)
-```
+```js
 function twiceAsOld(dadYearsOld, sonYearsOld) {
   return Math.abs((sonYearsOld*2)-dadYearsOld)
 }
 ```
 3.  [https://www.codewars.com/kata/5f77d62851f6bc0033616bd8](https://www.codewars.com/kata/5f77d62851f6bc0033616bd8)
-```
+```js
 function validSpacing(s) {
   let cadena = s;
   
@@ -112,7 +112,7 @@ function validSpacing(s) {
 }
 ```
 4.  [https://www.codewars.com/kata/57eae65a4321032ce000002d](https://www.codewars.com/kata/57eae65a4321032ce000002d)
-```
+```js
 function fakeBin(x){
   var maxLenght = x.length;
   var cadenaBin = '';
@@ -127,7 +127,7 @@ function fakeBin(x){
 ## [](https://github.com/corecodeio/bootcamp-from-scratch/tree/main/src/technologies/2022/week2#week-challenges-thursday-)Week challenges (Thursday)  💻
 
 1.  [https://www.codewars.com/kata/57faece99610ced690000165](https://www.codewars.com/kata/57faece99610ced690000165)
-```
+```js
 function remove (string) {
   let res = string;
   while (res[res.length - 1] === "!") 
@@ -138,13 +138,13 @@ function remove (string) {
 }
 ```
 2.  [https://www.codewars.com/kata/5547929140907378f9000039](https://www.codewars.com/kata/5547929140907378f9000039)
-```
+```js
 function shortcut (string) {
   return string.replace( /[aeiou]/ig, '' );
 }
 ```
 3.  [https://www.codewars.com/kata/5672a98bdbdd995fad00000f](https://www.codewars.com/kata/5672a98bdbdd995fad00000f)
-```
+```js
 const rps = (p1, p2) => {
   if (p1 == p2) 
     {
@@ -168,7 +168,7 @@ const rps = (p1, p2) => {
 };
 ```
 4.  [https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec](https://www.codewars.com/kata/55bf01e5a717a0d57e0000ec)
-```
+```js
 function persistence(num) {
   var nuevoNum = String(num);
   var res;
