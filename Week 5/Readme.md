@@ -65,10 +65,31 @@ export function warnTheSheep(queue: string[]): string {
 ## Week challenges (Tuesday) 💻
 
 1. [A Rule of Divisibility by 13](https://www.codewars.com/kata/564057bc348c7200bd0000ff) Using `Typescript`
+```ts
+```
 2. [Playing with digits](https://www.codewars.com/kata/5552101f47fc5178b1000050) Using `Typescript`
-3. [Valid Braces](https://www.codewars.com/kata/5277c8a221e209d3f6000b56) Using `Typescript`
-4. [Tic-Tac-Toe](https://www.codewars.com/kata/5216a87cbf53a9c30f0000dc) Using `Typescript`
-5. [Tic-Tac-Toe-like table Generator](https://www.codewars.com/kata/5b817c2a0ce070ace8002be0) Using `Typescript`
+```ts
+export class G964 {
+
+    public static digPow = (n: number, p: number) => {
+      let arr: number[] = String(n).split("").map((n)=>{
+          return Number(n)
+        })
+
+      let arrRes = arr.reduce((acum, act, i, arr) => acum + (Math.pow(arr[i], p+i)), 0) / n;
+      return (''+arrRes).includes('.') ? -1 : arrRes;
+    }
+}
+```
+5. [Valid Braces](https://www.codewars.com/kata/5277c8a221e209d3f6000b56) Using `Typescript`
+```ts
+```
+6. [Tic-Tac-Toe](https://www.codewars.com/kata/5216a87cbf53a9c30f0000dc) Using `Typescript`
+```ts
+```
+7. [Tic-Tac-Toe-like table Generator](https://www.codewars.com/kata/5b817c2a0ce070ace8002be0) Using `Typescript`
+```ts
+```
 
 ## Week challenges (Wednesday) 💻
 1. [Duplicate Encoder](https://www.codewars.com/kata/54b42f9314d9229fd6000d9c/train/typescript) Using `Typescript`
