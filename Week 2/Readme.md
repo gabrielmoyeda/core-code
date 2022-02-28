@@ -1,4 +1,4 @@
-# Week 2 - 17 a 21 Enero 2022
+# Week 2 - Javascript - (17 - 21 Enero 2022)
 ## Week challenges (Monday)  💻
 
 1.  Follow the github course, you can find it  [here](https://github.com/corecodeio/bootcamp-from-scratch/blob/main/src/recommended)
