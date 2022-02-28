@@ -9,14 +9,21 @@ Este es el repositorio correspondiente al entrenamiento de Core-code.
 Agradecimiento especial a todos los TL y al equipo completo de Core-Code
 
 
-[Week 1 - Introduction to programming & Javascript - Week 1 (10 - 14 Ene)](https://github.com/gabrielmoyeda/core-code/tree/master/Week%201) 
+[Week 1 : Introduction to programming & Javascript (10 - 14 Ene 2022)](https://github.com/gabrielmoyeda/core-code/tree/master/Week%201) 
 
-[Week 2](https://github.com/gabrielmoyeda/core-code/tree/master/Week%202)
+[Week 2 : Javascript (17 - 21 Ene 2022)](https://github.com/gabrielmoyeda/core-code/tree/master/Week%202)
 
-[Week 3](https://github.com/gabrielmoyeda/core-code/tree/master/Week%203)
+[Week 3 : Javascript (24 - 28 Ene 2022)](https://github.com/gabrielmoyeda/core-code/tree/master/Week%203)
 
-[Week 4](https://github.com/gabrielmoyeda/core-code/tree/master/Week%204)
+[Week 4 : npm, npx & Typescript (31 Ene - 4 Feb 2022)](https://github.com/gabrielmoyeda/core-code/tree/master/Week%204)
 
-[Week 5](https://github.com/gabrielmoyeda/core-code/tree/master/Week%205)
+[Week 5 : Typescript (7 - 11 Feb 2022)](https://github.com/gabrielmoyeda/core-code/tree/master/Week%205)
 
-[Week 6](https://github.com/gabrielmoyeda/core-code/tree/master/Week%206)
+[Week 6 : Typescritp (14 - 18 Feb 2022)](https://github.com/gabrielmoyeda/core-code/tree/master/Week%206)
+
+Week 7 : Typescript (21 - 25 Feb 2022)
+Week 8 : HTML & CSS (28 Feb - 4 Mar 2022)
+Week 9 : React & Node
+Week 10 : Node & Database
+Week 11 : S.O.L.I.D & Final presentations
+Week 12 : Final presentations
