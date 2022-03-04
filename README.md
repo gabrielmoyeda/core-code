@@ -21,7 +21,8 @@ Agradecimiento especial a todos los TL y al equipo completo de Core-Code
 
 [Week 6 : Typescritp (14 - 18 Feb 2022)](https://github.com/gabrielmoyeda/core-code/tree/master/Week%206)
 
-Week 7 : Typescript (21 - 25 Feb 2022)
+Week 7 : Typescript (21 - 25 Feb 2022) - me falta algo
+
 Week 8 : HTML & CSS (28 Feb - 4 Mar 2022)
 Week 9 : React & Node
 Week 10 : Node & Database
