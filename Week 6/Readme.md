@@ -1,4 +1,5 @@
-<h1 align="center">Typescript - Week 6</h1>
+<h1 align="center"><b>Typescript</b>
+<br>Week 6 (14 - 18 Feb 2022)</h1>
 
 ## Week goal 🏁
 

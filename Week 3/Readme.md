@@ -1,8 +1,34 @@
-<h1 align="center">Javascript - Week 3 (24 - 28 Ene)</h1>
+<h1 align="center"><b>Javascript</b>
+<br>Week 3 (24 - 28 Ene)</h1>
 
-## Week challenges (Monday) 💻
+## Week goal 🏁
 
-1. https://www.codewars.com/kata/5266876b8f4bf2da9b000362
+<p>Learn about Javascript behaviour</p>
+
+<details>
+  <summary>Más información</summary>
+  <h3>Week subtopics</h3>
+
+- Scope
+- Spread Operator
+- Template Strings
+- Arrow functions
+- Functions as argument
+- Regular expressions
+- Promises
+- fetch
+- Async, Await
+- Falsy and thruthy values
+- && and || for deafult and required values
+- Clousures
+- this
+</details>
+
+---
+
+## <mark>Week challenges (Monday)</mark> 💻
+
+1. [Who likes it?](https://www.codewars.com/kata/5266876b8f4bf2da9b000362)
 ```js
 function likes(names) {
   switch(names.length){
@@ -23,14 +49,14 @@ function likes(names) {
   }
 }
 ```
-2. https://www.codewars.com/kata/526571aae218b8ee490006f4
+2. [Bit Counting](https://www.codewars.com/kata/526571aae218b8ee490006f4)
 ```js
 var countBits = function(n) {
   res = n.toString(2).match(/1/g);
   return (res) ? res.length : 0;
 };
 ```
-3. https://www.codewars.com/kata/54b724efac3d5402db00065e
+3. [Decode the Morse code](https://www.codewars.com/kata/54b724efac3d5402db00065e)
 ```js
 decodeMorse = function(morseCode){
   return morseCode
@@ -44,10 +70,10 @@ decodeMorse = function(morseCode){
               .trim()
 }
 ```
+---
+## <mark>Week challenges (Tuesday)</mark> 💻
 
-## Week challenges (Tuesday) 💻
-
-1. https://www.codewars.com/kata/55c45be3b2079eccff00010f
+1. [Your order, please](https://www.codewars.com/kata/55c45be3b2079eccff00010f)
 ```js
 function order(words){
   // Divide la Cadena y le aplica un Sort
@@ -58,13 +84,13 @@ function order(words){
   
 }
 ```
-2. https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1
+2. [Counting Duplicates](https://www.codewars.com/kata/54bf1c2cd5b56cc47f0007a1)
 ```js
 function duplicateCount(text){
   return (text.toLowerCase().split('').sort().join('').match(/([^])\1+/g) || []).length;
 }
 ```
-3. https://www.codewars.com/kata/520b9d2ad5c005041100000f
+3. [Simple Pig Latin](https://www.codewars.com/kata/520b9d2ad5c005041100000f)
 ```js
 function pigIt(str){
   let arrRes = [];
@@ -85,40 +111,40 @@ function pigIt(str){
   return arrRes.join(" ");
 }
 ```
+---
+## <mark>Week challenges (Wednesday)</mark> 💻
 
-## Week challenges (Wednesday) 💻
-
-1. https://www.codewars.com/kata/52774a314c2333f0a7000688
+1. [Valid Parentheses](https://www.codewars.com/kata/52774a314c2333f0a7000688)
 ```js
 function validParentheses(parens) {
+  let cad = parens.split("");
+  let contador = 0;
 
-   let cad = parens.split("");
-   let contador = 0;
-
-   if (cad.length==1 || cad[0] == ")")  return false;
+  if (cad.length==1 || cad[0] == ")")  return false;
   
-   if (cad.length> 1)
-      {
-         for (let i = 0; i< cad.length; i++)  
+  if (cad.length> 1)
+  {
+    for (let i = 0; i< cad.length; i++)  
+    {
+        if (cad[i] == "(")
+        {
+            contador++;
+        }
+        else if (cad[i] == ")") 
+        {
+          contador--;
+          if (contador < 0) 
             {
-               if (cad[i] == "(")
-                  {
-                     contador++;
-                  } else if (cad[i] == ")") 
-                     {
-                        contador--;
-                        if (contador < 0) 
-                           {
-                              return false;
-                           }
-                     }
+              return false;
             }
-      }
+        }
+    }
+  }
 
-   return contador == 0;
+  return contador == 0;
 }
 ```
-2. https://www.codewars.com/kata/517abf86da9663f1d2000003
+2. [Convert string to camel case](https://www.codewars.com/kata/517abf86da9663f1d2000003)
 ```js
 function toCamelCase(str){
   return str.replace(/[-_\s.]+(.)?/g, function(match, chr)
@@ -127,7 +153,7 @@ function toCamelCase(str){
         });
 }
 ```
-3. https://www.codewars.com/kata/54e6533c92449cc251001667
+3. [Unique In Order](https://www.codewars.com/kata/54e6533c92449cc251001667)
 ```js
 var uniqueInOrder=function(iterable){
   let res = [];
@@ -142,10 +168,10 @@ var uniqueInOrder=function(iterable){
   return res;
 }
 ```
+---
+## <mark>Week challenges (Thursday)</mark> 💻
 
-## Week challenges (Thursday) 💻
-
-1. https://www.codewars.com/kata/57ea70aa5500adfe8a000110
+1. [Fold an array](https://www.codewars.com/kata/57ea70aa5500adfe8a000110)
 ```js
 function foldArray(array, runs)
 {
@@ -166,7 +192,7 @@ function foldArray(array, runs)
   return folded;
 }
 ```
-2. https://www.codewars.com/kata/5848565e273af816fb000449
+2. [Encrypt this!](https://www.codewars.com/kata/5848565e273af816fb000449)
 ```js
 var encryptThis = function(text) {
   let strArr = text.split(' ');
@@ -188,7 +214,7 @@ var encryptThis = function(text) {
   return res.join(' ');
 }
 ```
-3. https://www.codewars.com/kata/53368a47e38700bd8300030d
+3. [Format a string of names like 'Bart, Lisa & Maggie'. (retired)](https://www.codewars.com/kata/53368a47e38700bd8300030d)
 ```js
 function list(names){
   // Se usa el método reduce, donde se pasa como parámetro inicial el valor vacio ''
@@ -209,3 +235,17 @@ function list(names){
  }
 ```
 4. ✨Complete your 2nd [**Core Challenge**](https://corecode.notion.site/LinkedIn-Boost-5974abb0f917458ea235d3288ac6c7d3). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+
+Mi perfil en [![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/gabriel-moyeda-estrada/)
+
+---
+## Week links 🔗
+
+1. [Objects](./Examples/00_objects.js)
+2. [Functions](./Examples/01_functions.js)
+3. [Scope](./Examples/02_scopes.js)
+4. [Spread](./Examples/03_spread.js)
+5. [Literals](./Examples/04_literals.js)
+6. [Default](./Examples/05_default.js)
+7. [Arrow Functions](./Examples/06_arrf.js)
+8. [Array Methods](./Examples/07_a_methods.js)

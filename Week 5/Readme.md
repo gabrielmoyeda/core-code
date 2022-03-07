@@ -1,4 +1,5 @@
-<h1 align="center">Typescript - Week 5 (07 - 11 Feb)</h1>
+<h1 align="center"><b>Typescript</b>
+<br>Week 5 (07 - 11 Feb)</h1>
 
 ## Week challenges (Monday) 💻
 

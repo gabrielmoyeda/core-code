@@ -1,15 +1,51 @@
-<h1 align="center">Introduction to programming & Javascript - Week 1 (10 - 14 Ene)</h1>
+<h1 align="center"><b>Introduction to programming & Javascript</b> <br> Week 1 (10 - 14 Ene)</h1>
 
-## Week challenges (Tuesday)  💻
+## Week goal 🏁
+
+<p>Learn about the basics of programming and start knowing Javascript</p>
+
+
+<details>
+  <summary>Más información</summary>
+  <h3>Week subtopics</h3>
+
+- What does programming look like?
+- What really is programming?
+- What is a program?
+- How a computer run a program?
+- Algorithmic operations
+  - Sequential
+  - Conditional
+  - Iterative
+- Basic elements of programming
+  - Instruction set
+  - Variables
+  - Input / Output
+- "I have no idea what i'm doing" feeling
+- Wat is javascript?
+- What is an interpreted language?
+- Javascript Hello World
+- MDN Documentation
+- Variables in Javascript
+- Data types in Javascript
+  - number
+  - boolean
+  - string
+- comments in Javascript
+</details>
+
+---
+## <mark>Week challenges (Tuesday) </mark>  💻
 
 1.  Watch  [this](https://www.youtube.com/watch?v=JNMy969SjyU)  video about compilation and interpretation 
 * Diferencias entre compilación e interpretación
 * **Compilación:** convierte mi código a lenguaje binario para que pueda ser ejecutado.
 
-|Pros|Contras  |
-|--|--|
-|Más rápido|No es multiplataforma  |
+|Pros|Contras|
+|----|-------|
+|Más rápido|No es multiplataforma|
 |Código fuente es privado|requiere de pasos extra para compilar  |
+
 * **Intérprete:** se envía directamente mi código y el intérprete lo interpreta al vuelo, es decir, haciendo la ejecución línea por línea.
 
 |Pros|Contras  |
@@ -17,32 +53,31 @@
 |multiplataforma|mas lento|
 |no requiere de pasos extras|el código es público  |
 |facilita la depuracion||
-2.  Search and answer the question: Java language is compiled or interpreted?
+2.  Search and answer the question: Java language is compiled or interpreted?  
 Java se puede considerar tanto un lenguaje compilado como interpretado porque su código fuente se compila primero en un código de bytes binario. Este código de bytes se ejecuta en la máquina virtual de Java (JVM), que suele ser un intérprete basado en software. El uso de código de bytes compilado permite que el intérprete (la máquina virtual) sea pequeño y eficiente (y casi tan rápido como la CPU que ejecuta código compilado nativo). Además, este código de bytes le da a Java su portabilidad: se ejecutará en cualquier JVM que se implemente correctamente, independientemente de la configuración del hardware o software de la computadora. La mayoría de los navegadores web (como Microsoft Internet Explorer o Netscape Communicator) contienen una JVM para ejecutar applets de Java.
 3.  Create an algorithm to calculate the equivalent of your local currencty to USD
 	1. Solicitar Monto a convertir
 	2. Resultado = Monto * 20
 	3. Muestra el Resultado
 4.  Read about Pseudocode  [here](https://www.freecodecamp.org/news/what-is-pseudocode-in-programming/), you can also find some examples  [here](https://github.com/corecodeio/bootcamp-from-scratch/blob/main/resources/PSEUDOCODE.md)
-5.  Anwser to the question: Why is pseudocode helpful?
+5.  Anwser to the question: Why is pseudocode helpful?  
 Por que es algo que escribiste tu, puedes crear tus propias reglas, es un método informal de diseño de programas, así que finalmente una vez que tienes resuelto el problema, solo es cuestión de pasarlo al lenguaje deseado.
-6.  Create a pseudocode to calculate the aproximated age of a user base on the year they born, (you can define a variable with the actual year if you need it, like for example i could define Y <-- 2022)
-	Calcula Edad
-	Variables: Y = 2022, Num1, Resultado
-	Escribir "Ingrese el año de nacimiento"
-	Leer Num1
-	Resultado = Y - Num1
-	Escribir "Tu edad es:" *Resultado*
-	
+6.  Create a pseudocode to calculate the aproximated age of a user base on the year they born, (you can define a variable with the actual year if you need it, like for example i could define Y <-- 2022)  
+	1. Calcula Edad
+	2. Variables: Y = 2022, Num1, Resultado
+	3. Escribir "Ingrese el año de nacimiento"
+	4. Leer Num1
+	5. Resultado = Y - Num1
+	6. Escribir "Tu edad es:" *Resultado*   
 	
 7.  Read about flowcharts  [here](https://www.lucidchart.com/pages/es/que-es-un-diagrama-de-flujo)
-8.  Answer to the question: Why are flowcharts important to us as developers?
+8.  Answer to the question: Why are flowcharts important to us as developers?  
 Un diagrama de flujo sirve para describir un proceso o un sistema sirve para documentar, estudiar, mejorar, entender procesos que pueden ser complejos de forma visual, es decir, diagramas claros y fáciles de comprender.
-9.  Search about High-level languages and Low-level languages, you can start with  [this](https://www.youtube.com/watch?v=1vRPOp5p-qs)  video
-Lenguajes de Alto Nivel: es fácil de leer por el ser humano 
-Lenguaje de Bajo Nivel: Es fácil de leer por el computador, pero no lo es tanto para el ser humano
-##
-## Week challenges (Wednesday)  💻
+9.  Search about High-level languages and Low-level languages, you can start with  [this](https://www.youtube.com/watch?v=1vRPOp5p-qs)  video  
+**Lenguajes de Alto Nivel**: es fácil de leer por el ser humano  
+**Lenguaje de Bajo Nivel**: Es fácil de leer por el computador, pero no lo es tanto para el ser humano  
+---
+## <mark>Week challenges (Wednesday) </mark>  💻
 1.  Learn about binary, decimal and hexadecimal numbers
 2.  Translate the year you where born to binary, decimal and hexadecimal
 **Bin:** 11110111001
@@ -101,8 +136,8 @@ Lenguaje de Bajo Nivel: Es fácil de leer por el computador, pero no lo es tanto
 			la $a0, message
 			syscall
 ```
-
-## Week challenges (Thursday)  💻
+---
+## <mark>Week challenges (Thursday) </mark> 💻
 
 1.  Search for real word applications of Javascript
 -   Visual Studio Code.

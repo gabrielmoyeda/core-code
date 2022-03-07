@@ -1,0 +1,59 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   background-color: white;
+}
+
+.contenedor {
+   width: 80%;
+   margin: 0 auto;
+}
+
+p {
+   text-align: justify;
+   font-size: 18px;
+   line-height: 30px;
+   margin: 15px 10px;
+}
+
+.color1 {
+   color: blue;
+}
+.color2 {
+   color: chocolate;
+}
+.color3 {
+   color: darkred;
+}
+.color4 {
+   color: dimgray;
+}
+.color5 {
+   color: fuchsia;
+}
+.color6 {
+   color: gold;
+}
+.color7 {
+   color: hotpink;
+}
+.color8 {
+   color: indigo;
+}
+.color9 {
+   color: lightsalmon;
+}
+.color10 {
+   color: maroon;
+}
+
+ol {
+   list-style-type: decimal;
+}
+
+ul {
+   list-style-image: url("../img/ccul.png");
+}

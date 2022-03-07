@@ -1,13 +1,48 @@
-<h1 align="center">npm,npx & Typescript - Week 4 (31 Ene - 4 Feb)</h1>
+<h1 align="center"><b>npm,npx & Typescript</b>
+<br>Week 4 (31 Ene - 4 Feb)</h1>
 
-Check this video
-Follow this video
-Follow this guide
-Check this video
-Follow this video
-Check this video
+## Week goal 🏁
 
-## Week challenges (Wednesday) 💻
+<p>Lear about Typescript and Object Oriented Programming introduction</p>
+
+<details>
+  <summary>Más información</summary>
+  <h3>Week subtopics</h3>
+
+- What is npm?
+- package.json
+- What is npx?
+- What is Typescript?
+- Relation between Typescript and Javascript
+- Typescript Hello World
+- Introduction to Object Oriented Programming
+  - Abstraction
+  - Inheritance
+  - Polymorphism
+  - Encapsulation
+</details>
+
+---
+
+## <mark>Week challenges (Monday)</mark> 💻
+
+1. Check [this](https://www.youtube.com/watch?v=sXQxhojSdZM) video
+2. Follow [this](https://www.youtube.com/watch?v=909NfO1St0A) video
+3. Follow [this](https://dev.to/codebubb/javascript-regex-exercises-01-5078) guide -> [Solution](./01monday/regex_exercises_01.js)
+4. Check [this](https://www.youtube.com/watch?v=RvYYCGs45L4) video
+5. Follow [this](https://www.youtube.com/watch?v=DHvZLI7Db8E) video
+6. Check [this](https://www.youtube.com/watch?v=rKK1q7nFt7M) video
+---
+## <mark>Week challenges (Tuesday)</mark> 💻
+1. [This](https://www.typescriptlang.org/docs/handbook/intro.html) link is nice to have and read
+2. [Typescript object type](https://typescript-exercises.github.io/#exercise=1)
+3. Read [this](https://blog.logrocket.com/types-vs-interfaces-in-typescript/)
+4. [Typescript union types](https://typescript-exercises.github.io/#exercise=2)
+5. [Typescript in operator](https://typescript-exercises.github.io/#exercise=3)
+6. [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836)
+7. [Stop gninnipS My sdroW!](https://www.codewars.com/kata/5264d2b162488dc400000001)
+---
+## <mark>Week challenges (Wednesday)</mark> 💻
 1. [Array.diff](https://www.codewars.com/kata/523f5d21c841566fde000009)
 ```js
 function arrayDiff(a, b) {
@@ -21,8 +56,8 @@ function createPhoneNumber(numbers){
   return numbers.join('').replace(/(...)(...)(.*)/, '($1) $2-$3');
 }
 ```
-
-## Week challenges (Thursday) 💻
+---
+## <mark>Week challenges (Thursday)</mark> 💻
 
 1. [Detect Pangram](https://www.codewars.com/kata/545cedaa9943f7fe7b000048)
 ```js
@@ -120,4 +155,11 @@ function find(rats) {
   return rats.reduce((a,b) => a + Math.pow(2, b) ,0);
 }
 ```
-6. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.
+6. ✨Complete your 3rd [**Core Challenge**](https://corecode.notion.site/GitHub-Boost-Guide-167914056cff4522886a78756f659e47). This is one of the requirements for the certification, where you'll boost your dev professional-brand.  
+Visit my [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/gabrielmoyeda) profile
+---
+## Week links 🔗
+
+1. [TypescriptPlayground](https://www.typescriptlang.org/play)
+2. [Example 0 - Typescript](https://github.com/corecodeio/FS0122_Typescript_00)
+3. [Example 1 - Typescript](https://github.com/corecodeio/FS0222_Typescript_01)
