@@ -26,7 +26,46 @@
 
 ## <mark>Week challenges (Monday)</mark> 💻
 
-1. Check [this](https://www.youtube.com/watch?v=sXQxhojSdZM) video
+1. Check [this](https://www.youtube.com/watch?v=sXQxhojSdZM) video  
+Regular Expression or RegEx  
+[WebPage to practice](https://regexr.com/)  
+Para declarar un regex en js -> **const regex = /aqui_regex/**  
+En JS tenemos  
+`match` para encontrar todos las coincidencias
+> ```js
+> const matches = 'Some Text'.match( regex );
+> ```  
+`search` para encontrar una coincidencia
+> ```js
+> const index = 'Some Text'.search( regex );
+> ```  
+`replace` para reemplacar las coincidencias
+> ```js
+> const next = 'Some Text'.replace( regex, 'hi mom!' );
+> ```  
+Banderas: (puede tener combinaciones)
+<ul>
+  <li>g - global - busca en toda la cadena</li>
+  <li>i</li>
+  <li>m</li>
+  <li>s</li>
+  <li>y</li>
+</ul>
+Caracteres especiales
+<ul>
+  <li>.</li>
+  <li>$</li>
+  <li>* - Permite al patron ver si existe 1 o mas veces</li>
+  <li>+</li>
+  <li>-</li>
+  <li>? - Permite al patron ver si existe 0 o 1 vez</li>
+  <li>() - Sirve para agrupar</li>
+  <li>[]</li>
+  <li>{}</li>
+  <li>\</li>
+  <li>| - Logical Or</li>
+</ul>
+
 2. Follow [this](https://www.youtube.com/watch?v=909NfO1St0A) video
 3. Follow [this](https://dev.to/codebubb/javascript-regex-exercises-01-5078) guide -> [Solution](./01monday/regex_exercises_01.js)
 4. Check [this](https://www.youtube.com/watch?v=RvYYCGs45L4) video
@@ -36,8 +75,139 @@
 ## <mark>Week challenges (Tuesday)</mark> 💻
 1. [This](https://www.typescriptlang.org/docs/handbook/intro.html) link is nice to have and read
 2. [Typescript object type](https://typescript-exercises.github.io/#exercise=1)
+```ts
+/*
+
+Welcome to:
+
+    ................................................................
+    .                                                              .
+    .     ####################    ####################      E      .
+    .     ####################    ####################      X      .
+    .             ####            ####                      E      .
+    .             ####            ####                      R      .
+    .             ####            ####################      C      .
+    .             ####                            ####      I      .
+    .             ####                            ####      S      .
+    .             ####            ####################      E      .
+    .             ####            ####################      S      .
+    .                                                              .
+    ................................................................
+
+Intro:
+
+    We are starting a small community of users. For performance
+    reasons we have decided to store all users right in the code.
+    This way we can provide our developers with more
+    user-interaction opportunities. With user-related data, at least.
+    All the GDPR-related issues will be solved some other day.
+    This would be the base for our future experiments during
+    these exercises.
+
+Exercise:
+
+    Given the data, define the interface "User" and use it accordingly.
+
+*/
+
+export type User = { name: string, age : number , occupation : string};
+
+export const users: User[] = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    }
+];
+
+export function logPerson(user: User) {
+    console.log(` - ${user.name}, ${user.age}`);
+}
+
+console.log('Users:');
+users.forEach(logPerson);
+
+
+/* In case if you are stuck:
+
+// https://www.typescriptlang.org/docs/handbook/interfaces.html#introduction
+*/
+
+```
 3. Read [this](https://blog.logrocket.com/types-vs-interfaces-in-typescript/)
 4. [Typescript union types](https://typescript-exercises.github.io/#exercise=2)
+```ts
+/*
+
+Intro:
+
+    All 2 users liked the idea of the community. We should go
+    forward and introduce some order. We are in Germany after all.
+    Let's add a couple of admins.
+
+    Initially we only had users in the in-memory database. After
+    introducing Admins, we need to fix the types so that
+    everything works well together.
+
+Exercise:
+
+    Type "Person" is missing, please define it and use
+    it in persons array and logPerson function in order to fix
+    all the TS errors.
+
+*/
+
+interface User {
+    name: string;
+    age: number;
+    occupation: string;
+}
+
+interface Admin {
+    name: string;
+    age: number;
+    role: string;
+}
+
+export type Person = User | Admin;
+
+export const persons: Person[]  = [
+    {
+        name: 'Max Mustermann',
+        age: 25,
+        occupation: 'Chimney sweep'
+    },
+    {
+        name: 'Jane Doe',
+        age: 32,
+        role: 'Administrator'
+    },
+    {
+        name: 'Kate Müller',
+        age: 23,
+        occupation: 'Astronaut'
+    },
+    {
+        name: 'Bruce Willis',
+        age: 64,
+        role: 'World saver'
+    }
+];
+
+export function logPerson(person: Person) {
+    console.log(` - ${person.name}, ${person.age}`);
+}
+
+persons.forEach(logPerson);
+
+// In case if you are stuck:
+// https://www.typescriptlang.org/docs/handbook/advanced-types.html#union-types
+```
 5. [Typescript in operator](https://typescript-exercises.github.io/#exercise=3)
 6. [Find the odd int](https://www.codewars.com/kata/54da5a58ea159efa38000836)
 7. [Stop gninnipS My sdroW!](https://www.codewars.com/kata/5264d2b162488dc400000001)

@@ -2,7 +2,7 @@
 
 ## Week goal 🏁
 
-<p>Larn more advance configurations in Typescript, along with advance types</p>
+<p>Learn more advance configurations in Typescript, along with advance types</p>
 
 ## Week subtopics
 
